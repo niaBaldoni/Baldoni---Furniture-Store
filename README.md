@@ -6,10 +6,10 @@ This project was first created for a Database And Knowledge Base course assignme
 The idea was to develop a solution to help the management of a chain of furniture stores distributed over the Italian territory. I wanted to keep track of various data, from the inventory and personnel of each store to statistics concerning the shopping habits of the clients.
 
 The project wants to provide a general framework and management of the following aspects:
-• Management of individual stores and their employees
-• Management of furniture, prices, and production status
-• Customer information
-• Sales history
+- Management of individual stores and their employees
+- Management of furniture, prices, and production status
+- Customer information
+- Sales history
 
 After analyzing the requirements, and a couple of iteration on the design later, this is the physical data model that represents the current database:
 
@@ -22,7 +22,7 @@ After analyzing the requirements, and a couple of iteration on the design later,
 
 ## Installation
 
-You can execute the sql code contained in the .sql files to create your database. It's default name will be baldonifurniturestore.
+You can execute the SQL code contained in the .sql files to create your database. It's default name will be baldonifurniturestore.
 The fillDatabase.py file can be edited to your needs:
 ```
 db = mysql.connector.connect(
