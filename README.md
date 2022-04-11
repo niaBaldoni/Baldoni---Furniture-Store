@@ -15,10 +15,16 @@ After analyzing the requirements, and a couple of iteration on the design later,
 
 ![physical data model](/docs/schema.png)
 
+## API Implementation
+To get easier access to our data (and, eventually, generate graphs dynamically on an online Admin dashboard), I've implemented a couple of APIs to connect to the database and return the requested data.
+
+The current APIs calculate and return the total amount of money spent by loyalty card owners, both by region and by province. 
+
 ## Technologies
 
 - [MySQL] - One of the requirements in the original course assignment was to create the Database in MySql; in the database folder, the two .sql files create the Database and all its tables, and add a couple of useful triggers to help maintain its consistency
 - [Python] - The Python code is used to generate random, but plausible, dummy data that can be used to test the database.
+- [C# ASP.NET] - Used to design and develop the backend APIs.
 
 ## Installation
 
