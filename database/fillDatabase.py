@@ -8,7 +8,7 @@ import datetime
 
 db = mysql.connector.connect(
     host="localhost",
-    database = "baldonifurniturestore",
+    database = "baldonifurniturestore2",
     user="root",
     passwd="root"               
 )
@@ -36,7 +36,6 @@ def generateEmployees():
                         "(Employee_Id, Employee_Name, Employee_Surname, Hire_Date, Store_Id, Department_Id) "
                         "VALUES (%s, %s, %s, %s, %s, %s)")
 
-    
     insertDepartments(department_list)
 
     surnames_list = getSurnames()
@@ -413,7 +412,6 @@ def generateStorage():
             mycursor.execute(add_fur_in_sto, storage_data)
         db.commit()
     print("Generation and insert of stores inventories into DB completed.")
-
 
 ################################
 
