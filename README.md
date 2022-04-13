@@ -16,9 +16,9 @@ After analyzing the requirements, and a couple of iteration on the design later,
 ![physical data model](/docs/schema.png)
 
 ## API Implementation
-To get easier access to our data (and, eventually, generate graphs dynamically on an online Admin dashboard), I've implemented a couple of APIs to connect to the database and return the requested data.
+After I completed the design of the database and filled it with random generated data, I thought it would be nice to easily access the information from an online Admin dashboard, to manage furniture inventory and sales data. Before starting to develop the frontend, we need some APIs that can connect to the database and retrieve the relevant data to then dynamically generate some graphs.
 
-The current APIs calculate and return the total amount of money spent by loyalty card owners, both by region and by province. 
+I decided to use C# and ASP.NET to develop a couple of simple APIs that could be used to generate useful graphs (for example, one returns the total amount of money spent by loyalty card owners, both by region and by province of residence).
 
 ## Technologies
 
